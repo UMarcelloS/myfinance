@@ -1,0 +1,9 @@
+MyFinance iPad App – Installationsanleitung
+
+1. Erstelle in der bisherigen Version zuerst unter Daten ein vollständiges JSON-Backup. Speichere es in iCloud Drive.
+2. Lade die Dateien dieses Pakets auf einen HTTPS-Webserver, alle in denselben Ordner. Das blosse Öffnen von index.html aus der Dateien-App installiert keine PWA.
+3. Öffne die HTTPS-Adresse auf dem iPad in Safari. Tippe auf Teilen > Zum Home-Bildschirm.
+4. Starte MyFinance vom Home-Bildschirm. Importiere das JSON-Backup unter Daten.
+5. Erstelle regelmässig weitere JSON-Backups und speichere diese in iCloud Drive.
+
+WICHTIG: Die Buchungsdaten liegen in lokalem Browser-Speicher, nicht automatisch in iCloud Drive. Browser-/Website-Daten löschen, App entfernen oder ein Gerätewechsel kann Datenverlust bedeuten. Es gibt keine automatische iCloud-Synchronisierung oder iCloud-Backup-Integration. Ein HTTPS-Host ist Voraussetzung für Offline-Funktion und installierbare PWA. Für eine echte native iPad-App mit automatischem iCloud-Backup wäre eine separate iOS-App-Entwicklung nötig.
